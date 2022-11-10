@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <view
+        android:id="@+id/nav_account"
+        android:title="My Account"
+        class="com.google.android.material.navigation.NavigationView"
+        />
+
+    <view
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+         class="com.google.android.material.navigation.NavigationView"/>
+
+    <view
+        android:id="@+id/nav_logout"
+        android:title="Logout"  class="com.google.android.material.navigation.NavigationView"/>
+
+</menu>
